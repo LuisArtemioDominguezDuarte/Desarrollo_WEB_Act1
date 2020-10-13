@@ -8,7 +8,7 @@
         <title>Ejercicio 1</title>
         <link rel="stylesheet" type="text/css" >
         <script type = "text/javascript">
-            var lim = prompt("proporcione el tamaño de la matriz")
+            var lim =  3;
             var matriz = new Array();
             for(i=0;i<lim; i++){
                 for(j=0;j<lim;j++){
