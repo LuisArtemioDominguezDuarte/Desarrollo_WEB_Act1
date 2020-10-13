@@ -1,14 +1,13 @@
-//ejercicio 3
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="Luis Artemio Dominguez Duarte" content="Ejercicio 3">
-        <title>Ejercicio 3 </title>
+        <title>Ejercicio 3</title>
         <link rel="stylesheet" type="text/css" >
         <script type = "text/javascript">
-            var lim = prompt("proporcione el tamaño de la matriz")
+            var lim = 5;
             var matriz = new Array();
             for(i=0;i<lim; i++){
                 for(j=0;j<lim;j++){
@@ -27,3 +26,5 @@
         
     </body>
 </html>
+
+
