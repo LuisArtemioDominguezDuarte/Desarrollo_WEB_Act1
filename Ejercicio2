@@ -1,0 +1,31 @@
+//ejercicio 2
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Luis Artemio Dominguez Duarte" content="Ejercicio 2">
+        <title>Ejercicio 1</title>
+        <link rel="stylesheet" type="text/css" >
+        <script type = "text/javascript">
+            var lim = prompt("proporcione el tamaño de la matriz")
+            var matriz = new Array();
+            for(i=0;i<lim; i++){
+                for(j=0;j<lim;j++){
+                    if(i==j){
+                        matriz[i]=1;
+                    }else{
+                        matriz[i]= 0;
+                    }
+                    document.write(matriz[i]+" ");
+                }
+                document.write("<br>");
+            }
+           alert("La matriz ya se dibujo");
+        </script>
+
+        
+    </body>
+</html>
+
